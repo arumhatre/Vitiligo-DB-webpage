@@ -302,6 +302,47 @@ a:focus{
 .treatment_all_comm_div.Journey_treatment_section .dot-list-sym li strong{font-size:18px;line-height:30px}
 }
 
+
+/*--------------------
+ Back to Top Button
+---------------------*/
+.scrollToTopBtn {
+/*    background-color: #154778;*/
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 48px;
+    width: 48px;
+    /* place it at the bottom right corner */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    /* keep it on top of everything else */
+    z-index: 100;
+    /* hide with opacity */
+    opacity: 0;
+    /* also add a translate effect */
+    transform: translateY(100px);
+    /* and a transition */
+    transition: all 0.5s ease;
+    box-shadow: 0 4px 15px rgb(175 173 173 / 18%);
+}
+
+.showBtn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scrollToTopBtn img{
+    padding: 10px;
+    margin-right: 12px;
+    background-color: #1f83c5;
+    border-radius: 50px;
+}
+
+
 /*==========================================*/
 /* Form Form css*/
 /*==========================================*/

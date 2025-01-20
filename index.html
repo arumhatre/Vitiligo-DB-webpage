@@ -476,11 +476,40 @@
       </div>
     </div>
   </section>
+  <a class="scrollToTopBtn"><img src="images/angle-up.webp" alt="Back to top button" class="img-fluid" width="" height="" loading="lazy" /></a>
+
   <script src="js/jquery.min.js" data-cfasync="false"></script>
   <script src="js/bootstrap.bundle.min.js" data-cfasync="false"></script>
   <script src="js/owl.carousel.min.js" data-cfasync="false"></script>
   <script src="js/custom.js" data-cfasync="false"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+  <script type="text/javascript">
+    <!-- ====== SCROLL TO TOP SCRIPT ====== -->
+var scrollToTopBtn = document.querySelector(".scrollToTopBtn")
+var rootElement = document.documentElement
+
+function handleScroll() {
+  var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+  if ((rootElement.scrollTop / scrollTotal ) > 0.02) {
+    // Show button
+    scrollToTopBtn.classList.add("showBtn")
+  } else {
+    // Hide button
+    scrollToTopBtn.classList.remove("showBtn")
+  }
+}
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
+document.addEventListener("scroll", handleScroll)
+  </script>
 </body>
 
 </html>
