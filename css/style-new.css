@@ -293,7 +293,7 @@ a:focus{
 .treatment_all_comm_div.Journey_treatment_section img{border-radius:20px}
 .treatment_all_comm_div.Journey_treatment_section .dot-list-sym li{padding:12px 20px;font-size:18px;font-weight:300;color:#000;border:1px solid #cdcdcd;margin-top:10px;border-radius:8px;list-style:none;line-height:20px}
 .treatment_all_comm_div.Journey_treatment_section .dot-list-sym li strong{font-size:24px;font-weight:600;line-height:40px}
-.treatment_all_comm_div.Journey_treatment_section .dot-list-sym li::before{content:url('../images/dot.webp');display:inline-block;width:25px;font-size:25px;margin-left:-29px}
+.treatment_all_comm_div.Journey_treatment_section .dot-list-sym li::before{content:url('../images/dot-single.webp');display:inline-block;width:25px;font-size:25px;margin-left:-29px}
 @media (max-width:1680px){
 .treatment_all_comm_div.Journey_treatment_section .dot-list-sym li{font-size:16px}
 }
@@ -303,13 +303,36 @@ a:focus{
 }
 
 /*==========================================*/
+/* 01 Journey section css*/
+/*==========================================*/
+/*.treatment_all_comm_div.Journey_treatment_section_one_nn{margin-top:40px}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .dot-list-sym{padding-left:0}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .bg_line_css{background-image:url(../images/bg_line_journey.webp);background-position:center;background-repeat:no-repeat}
+.treatment_all_comm_div.Journey_treatment_section_one_nn img{border-radius:4px;width:60%;height:auto;max-width:500px;margin:0 auto}
+.treatment_all_comm_div.Journey_treatment_section_one_nn h6{font-size:24px;font-weight:600;line-height:40px;margin-top:20px;background-color:#0c4679;border-radius:6px;display:inline-flex;color:#fff;padding:2px 20px;text-align:center}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box{width:90%;border-radius:20px;background-color:#fff;box-shadow:0 4px 15px rgb(175 173 173 / 18%);text-align:center;padding:20px;margin:10px auto;position:relative}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box::after,.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box::before{content:url(../images/dot.webp);display:inline-block;width:20px;height:20px;position:absolute}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box::before{top:50%;left:-15px;transform:translateY(-50%)}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box::after{top:50%;right:-15px;transform:translateY(-50%)}
+@media screen and (max-width:600px){
+.treatment_all_comm_div.Journey_treatment_section_one_nn .bg_line_css{background-image:url(../images/bg_line_journey_v.webp)}
+.treatment_all_comm_div.Journey_treatment_section_one_nn{margin-top:30px}
+.journey_div_box{width:100%}
+.journey_div_box img{max-width:100%}
+.treatment_all_comm_div.Journey_treatment_section_one_nn h6{font-size:18px;display:table;margin:10px auto}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box{margin:20px auto}
+.treatment_all_comm_div.Journey_treatment_section_one_nn img{border-radius:4px;width:55%;height:auto;max-width:500px;margin:0 auto}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box::after,.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box::before{content:url(../images/dot.webp);display:inline-block;width:20px;height:20px;position:absolute}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box::before{top:-10px;left:50%;transform:translateX(-50%)}
+.treatment_all_comm_div.Journey_treatment_section_one_nn .journey_div_box::after{bottom:-10px;left:50%;transform:translateX(-50%);top:10px;top:98%}
+}*/
+/*==========================================*/
 /* back to top css*/
 /*==========================================*/
 .scrollToTopBtn{border:none;border-radius:50%;color:#fff;cursor:pointer;font-size:30px;line-height:48px;width:48px;position:fixed;bottom:15px;right:15px;z-index:100;opacity:0;transform:translateY(100px);transition:all .5s ease;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 .showBtn{opacity:1;transform:translateY(0)}
 .scrollToTopBtn img{padding:10px;margin-right:12px;background-color:#1f83c5;border-radius:50px}
-
-
+    
 /*==========================================*/
 /* Form Form css*/
 /*==========================================*/
