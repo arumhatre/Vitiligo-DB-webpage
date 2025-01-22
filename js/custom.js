@@ -145,6 +145,29 @@ $(document).ready(function () {
   $('.owl-nav .owl-prev').attr('role', 'button');
   $('.owl-nav .owl-next').attr('role', 'button');
 
+
+   // Testimonial carousel initialization
+  $('#journey_slider').owlCarousel({
+    loop: false,
+    responsiveClass: true,
+    nav: true,
+    margin: 20,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    smartSpeed: 400,
+    navText: [
+      "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />",
+      "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />",
+    ],
+    responsive: {
+      0: { items: 1 },
+      600: { items: 1 },
+      768: { items: 1 },
+      1024: { items: 1 },
+      1200: { items: 1 },
+    },
+  });
+
   // Video item click handler
   $('.vid-item').each(function (index) {
     $(this).on('click', function () {
@@ -153,3 +176,8 @@ $(document).ready(function () {
     });
   });
 });
+
+
+
+
+
