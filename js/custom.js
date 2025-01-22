@@ -145,8 +145,7 @@ $(document).ready(function () {
   $('.owl-nav .owl-prev').attr('role', 'button');
   $('.owl-nav .owl-next').attr('role', 'button');
 
-
-   // Testimonial carousel initialization
+   // Journey carousel initialization
   $('#journey_slider').owlCarousel({
     loop: false,
     responsiveClass: true,

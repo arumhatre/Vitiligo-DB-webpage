@@ -418,47 +418,36 @@ a:focus{
 /*==========================================*/
 /* jpurney slier css*/
 /*==========================================*/
-
 .treatment_all_comm_div.new_Journey_treatment_section_slide{margin-top:40px}
 .treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym{padding-left:0}
 .treatment_all_comm_div.new_Journey_treatment_section_slide img{border-radius:20px}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li{padding:12px 20px;font-size:18px !important;font-weight:300;color:#212121;border:1px solid #cdcdcd;margin-top:10px;border-radius:8px;list-style:none;line-height:20px; opacity: 0.8}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active{padding:12px 20px;font-size:18px !important;font-weight:300;color:#000 !important;border:1px solid #0c4679;margin-top:10px;border-radius:8px;list-style:none;line-height:20px; background-color: #e0f3ff; opacity: 1}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li strong{font-size:24px !important;font-weight:400 !important;line-height:40px; color:#000 !important}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active strong{font-size:24px !important;font-weight:600 !important;line-height:40px; color:#0c4679!important}
-
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li::before{content:'';display:inline-block;width:25px;font-size:25px !important;margin-left:-29px}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active::before{content:url('../images/com-img/dot-single.webp');display:inline-block;width:25px;font-size:25px !important;margin-left:-29px;}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li{padding:12px 20px;font-size:18px!important;font-weight:300;color:#212121;border:1px solid #cdcdcd;margin-top:10px;border-radius:8px;list-style:none;line-height:20px;opacity:.8}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active{padding:12px 20px;font-size:18px!important;font-weight:300;color:#000!important;border:1px solid #0c4679;margin-top:10px;border-radius:8px;list-style:none;line-height:20px;background-color:#e0f3ff;opacity:1}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li strong{font-size:24px!important;font-weight:400!important;line-height:40px;color:#000!important}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active strong{font-size:24px!important;font-weight:600!important;line-height:40px;color:#0c4679!important}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li::before{content:'';display:inline-block;width:25px;font-size:25px!important;margin-left:-29px}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active::before{content:url('../images/com-img/dot-single.webp');display:inline-block;width:25px;font-size:25px!important;margin-left:-29px}
 @media (max-width:1680px){
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li{font-size:16px !important}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active{
-    font-size:16px !important
-}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li{font-size:16px!important}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active{font-size:16px!important}
 }
 @media screen and (max-width:600px){
 .treatment_all_comm_div.new_Journey_treatment_section_slide{margin-top:30px}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li strong{font-size:18px !important;line-height:30px}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li{
-    display: none;
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li strong{font-size:18px!important;line-height:30px}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li{display:none}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active{display:block}
+.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active::before{content:'';display:inline-block;width:25px;font-size:25px!important;margin-left:-29px}
 }
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active{
-    display: block;
-}
-.treatment_all_comm_div.new_Journey_treatment_section_slide .dot-list-sym li.active::before{content:'';display:inline-block;width:25px;font-size:25px !important;margin-left:-29px}
-
-}
-
-
 .treatment_all_comm_div.new_Journey_treatment_section_slide .text-play-btn-img{width:30px!important;margin-right:10px!important}
 .treatment_all_comm_div.new_Journey_treatment_section_slide .popup-vimeo{display:ruby;color:#fff;font-weight:600}
 .treatment_all_comm_div.new_Journey_treatment_section_slide .popup-vimeo:hover{text-decoration:none}
-.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-dots{display:none}
+/*.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-dots{}*/
 .treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-item img{width:100%}
-.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-next,#journey_slider .owl-prev{position:absolute;top:-5px;height:100%}
-.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-prev{display: none; left:-15px; background-color: transparent !important;}
-.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-next{display: none; right:-15px; background-color: transparent !important;}
+#journey_slider .owl-prev,.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-next{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-prev{display:none;left:-15px;background-color:transparent!important}
+.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-next{display:none;right:-15px;background-color:transparent!important}
 @media screen and (max-width:600px){
-.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-prev{left:-5px; background-color: transparent !important;}
-.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-next{right:-5px; background-color: transparent !important;}
+.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-prev{left:-5px;background-color:transparent!important}
+.treatment_all_comm_div.new_Journey_treatment_section_slide #journey_slider .owl-next{right:-5px;background-color:transparent!important}
 }
 
