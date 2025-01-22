@@ -152,8 +152,9 @@ $(document).ready(function () {
     nav: true,
     margin: 20,
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 4000,
     smartSpeed: 400,
+    animateIn: 'fadeIn',
     navText: [
       "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />",
       "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />",
